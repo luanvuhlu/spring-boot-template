@@ -83,6 +83,9 @@ fab deploy
 
 * [Spring Boot](https://spring.io/projects/spring-boot) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
+* [Fabric](http://www.fabfile.org/) - Deployment tool
+* [Docker](https://www.docker.com/) - Containerization platform
+* [Selenuim](https://www.seleniumhq.org/) - Browser automation tool
 
 ### Authors
 
