@@ -104,4 +104,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [ ] Add Code Style
 - [ ] Add Code Formatter
 - [ ] Use lombok
-- [ ] Add *unix scripts
+- [ ] Change to python scripts
+- [ ] Upgrade to Spring Boot
+- [ ] Remove unused code and dependencies
+- [ ] Add more useful scripts
