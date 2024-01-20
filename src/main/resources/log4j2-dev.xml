@@ -37,7 +37,6 @@
 			<AppenderRef ref="RollingFile" />
 			<AppenderRef ref="STDOUT" />
 		</Root>
-<!-- 		<Logger name="com.luanvv.spring.springstructure" level="INFO" /> -->
 		<Logger name="org.springframework.web.filter.CommonsRequestLoggingFilter" level="DEBUG"/>
 		<Logger name="org.springframework.web" level="DEBUG" />
 		<Logger name="org.hibernate.SQL" level="DEBUG" />
