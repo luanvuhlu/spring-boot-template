@@ -86,7 +86,7 @@ fab deploy
 
 ### Authors
 
-* **[Luan Vu]
+* [Luan Vu](https://luanvv.com/)
 
 ### License
 
