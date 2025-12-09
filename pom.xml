@@ -152,6 +152,11 @@
       <groupId>org.hibernate.validator</groupId>
       <version>8.0.3.Final</version>
     </dependency>
+    <dependency>
+      <artifactId>h2</artifactId>
+      <groupId>com.h2database</groupId>
+      <scope>test</scope>
+    </dependency>
     <!--    <dependency>-->
     <!--      <groupId>org.springframework</groupId>-->
     <!--      <artifactId>spring-aspects</artifactId>-->
