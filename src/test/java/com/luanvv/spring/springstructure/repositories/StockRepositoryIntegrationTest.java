@@ -26,7 +26,7 @@ public class StockRepositoryIntegrationTest {
     public void testSaveAndFindById() {
         // Given
         Stock stock = new Stock();
-        stock.setStockCode("TEST123456");
+        stock.setStockCode("TEST12345A");
         stock.setStockName("Test Stock Name");
 
         // When
@@ -35,7 +35,7 @@ public class StockRepositoryIntegrationTest {
         // Then
         Optional<Stock> foundStock = stockRepository.findById(savedStock.getId());
         assertThat(foundStock).isPresent();
-        assertThat(foundStock.get().getStockCode()).isEqualTo("TEST123456");
+        assertThat(foundStock.get().getStockCode()).isEqualTo("TEST12345A");
         assertThat(foundStock.get().getStockName()).isEqualTo("Test Stock Name");
         assertThat(foundStock.get().getUuid()).isNotNull();
     }
@@ -44,7 +44,7 @@ public class StockRepositoryIntegrationTest {
     public void testFindByUuid() {
         // Given
         Stock stock = new Stock();
-        stock.setStockCode("UUID123456");
+        stock.setStockCode("UUID12345B");
         stock.setStockName("UUID Test Stock");
 
         // When
@@ -53,7 +53,8 @@ public class StockRepositoryIntegrationTest {
         // Then
         Optional<Stock> foundStock = stockRepository.findByUuid(savedStock.getUuid());
         assertThat(foundStock).isPresent();
-        assertThat(foundStock.get().getStockCode()).isEqualTo("UUID123456");
+        assertThat(foundStock.get().getStockCode()).isEqualTo("UUID12345B");
+        assertThat(foundStock.get().getStockName()).isEqualTo("UUID Test Stock");
         assertThat(foundStock.get().getId()).isEqualTo(savedStock.getId());
     }
 
