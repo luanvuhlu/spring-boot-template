@@ -11,4 +11,4 @@ if "%ERRORLEVEL%"=="0" (
 )
 
 REM Run the Maven command
-call mvnw.cmd compile jib:dockerBuild
+call mvnw.cmd clean compile jib:dockerBuild

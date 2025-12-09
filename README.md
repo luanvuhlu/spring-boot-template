@@ -4,7 +4,8 @@ This is a template for a Spring Boot project.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running on your local machine for
+development and testing purposes.
 
 ### Prerequisites
 
@@ -16,21 +17,25 @@ These instructions will get you a copy of the project up and running on your loc
 A step by step series of examples that tell you how to get a development environment running.
 
 1. Clone the repository
+
 ```sh
 git clone <repository-url>
 ```
 
 2. Navigate to the project directory
+
 ```sh
 cd spring-boot-template
 ```
 
 3.Build the project
+
 ```sh
 mvn clean package
 ```
 
 4. Run the project
+
 ```sh
 java -jar target/spring-boot-template-0.0.1-SNAPSHOT.jar
 ```
@@ -38,6 +43,7 @@ java -jar target/spring-boot-template-0.0.1-SNAPSHOT.jar
 ### Running the tests
 
 Explain how to run the automated tests for this system.
+
 ```sh
 mvn test
 ```
@@ -48,11 +54,13 @@ Selenium tests TBD
 ### Docker
 
 Build docker image
+
 ```sh
 ./scripts/build-docker.cmd
 ```
 
 Start docker container
+
 ```sh
 ./scripts/start-docker.cmd
 ```

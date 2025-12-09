@@ -46,3 +46,4 @@ package-lock.json
 target/
 mvnw.cmd
 mvnw
+/docker/
